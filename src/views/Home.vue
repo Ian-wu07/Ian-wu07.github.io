@@ -14,8 +14,8 @@ let timer_id = setInterval(() => {
 </script>
 <template>
     <div class="w-full overflow-y-auto px-8 pt-16 sm:px-12 sm:pt-20 lg:px-16 lg:pt-24">
-        <Typing text="My Portfolio" class="mb-2 block text-2xl sm:text-3xl lg:text-4xl" />
-        <Typing v-if="T > 1200" text="Hello!" :speed="60" />
+        <Typing text="My brief" class="mb-2 block text-2xl sm:text-3xl lg:text-4xl" />
+        <Typing v-if="T > 1200" text="Hi! Ian" :speed="60" />
         <a
             v-if="T > 1600"
             class="mt-8 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
