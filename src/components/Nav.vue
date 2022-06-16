@@ -52,7 +52,7 @@ const links = [
                 v-if="$route.path !== '/about'"
             >
                 <img
-                    src=""
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvA3bb5kkUe9cmCUL9jfGZaJYDn94LCKPXBw&usqp=CAU"
                     class="w-full translate-y-12 scale-[180%] transition-all duration-200 hover:rounded-xl hover:pt-5 md:translate-y-14 md:hover:pt-7"
                 />
             </div>
